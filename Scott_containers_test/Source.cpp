@@ -16,6 +16,5 @@ int main() {
 		dv.push_back(i);
 	auto ticks = wt.ticks();
 	cout << "ticks: " << ticks << endl;
-	cout << "seconds: " << ticks / wt.ticksPerSecond() << endl;
-	
+	cout << "seconds: " << ticks / wt.ticksPerSecond() << endl;	
 }
